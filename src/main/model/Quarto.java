@@ -1,51 +1,45 @@
 public class Quarto {
-    private Integer numero_quarto;
-    private Integer numero_leitos;
-    public Integer EstadoQuarto;
-    public Integer Tipo_Quarto;
+    private Integer numeroQuartos;
+    private Integer numeroLeitos;
+    public Integer estadoQuarto;
+    public Integer tipoQuarto;
 
-    public Quarto(Integer EstadoQuarto, Integer Tipo_Quarto, Integer numero_leitos, Integer numero_quarto) {
-        this.EstadoQuarto = EstadoQuarto;
-        this.Tipo_Quarto = Tipo_Quarto;
-        this.numero_leitos = numero_leitos;
-        this.numero_quarto = numero_quarto;
+    public Quarto(Integer numeroQuartos, Integer numeroLeitos, Integer estadoQuarto, Integer tipoQuarto) {
+        this.numeroQuartos = numeroQuartos;
+        this.numeroLeitos = numeroLeitos;
+        this.estadoQuarto = estadoQuarto;
+        this.tipoQuarto = tipoQuarto;
     }
 
-    public Integer getNumero_quarto() {
-        return numero_quarto;
+    public Integer getNumeroQuartos() {
+        return numeroQuartos;
     }
 
-    public Integer getNumero_leitos() {
-        return numero_leitos;
+    public void setNumeroQuartos(Integer numeroQuartos) {
+        this.numeroQuartos = numeroQuartos;
+    }
+
+    public Integer getNumeroLeitos() {
+        return numeroLeitos;
+    }
+
+    public void setNumeroLeitos(Integer numeroLeitos) {
+        this.numeroLeitos = numeroLeitos;
     }
 
     public Integer getEstadoQuarto() {
-        return EstadoQuarto;
-    }
-
-    public Integer getTipo_Quarto() {
-        return Tipo_Quarto;
-    }
-
-    public void setNumero_quarto(Integer numero_quarto) {
-        this.numero_quarto = numero_quarto;
-    }
-
-    public void setNumero_leitos(Integer numero_leitos) {
-        this.numero_leitos = numero_leitos;
+        return estadoQuarto;
     }
 
     public void setEstadoQuarto(Integer estadoQuarto) {
-        EstadoQuarto = estadoQuarto;
+        this.estadoQuarto = estadoQuarto;
     }
 
-    public void setTipo_Quarto(Integer tipo_Quarto) {
-        Tipo_Quarto = tipo_Quarto;
+    public Integer getTipoQuarto() {
+        return tipoQuarto;
     }
 
-    
-
-
-    
-    
+    public void setTipoQuarto(Integer tipoQuarto) {
+        this.tipoQuarto = tipoQuarto;
+    }
 }
