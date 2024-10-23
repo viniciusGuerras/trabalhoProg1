@@ -1,3 +1,5 @@
+package main.model;
+
 public class Quarto {
     private Integer numeroQuartos;
     private Integer numeroLeitos;
